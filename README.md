@@ -70,3 +70,10 @@ When Hammerspoon is set as the default browser, a prompt will be shown to let yo
 - `prefix - s`: start screen saver.
 - `prefix - r`: reload Hammerspoon config.
 - `prefix - d`: toggle Hammerspoon console for debug.
+
+# Thanks
+
+- https://github.com/raulchen/dotfiles/tree/master/hammerspoon
+- https://github.com/zzamboni/dot-hammerspoon
+- https://github.com/sugood/hammerspoon
+- https://github.com/Hammerspoon/hammerspoon/issues/3111
