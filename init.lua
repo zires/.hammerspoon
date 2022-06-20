@@ -27,22 +27,6 @@ Install:andUse("ClipboardTool",
 
 Install:andUse("SpeedMenu", { start = true })
 
--- spaces = require("hs.spaces")
--- function MoveWindowToSpace(sp)
-  -- local win = hs.window.focusedWindow()      -- current window
-  -- local cur_screen = hs.screen.mainScreen()
-  -- local cur_screen_id = cur_screen:getUUID()
-  -- local all_spaces=spaces.allSpaces()
-  -- local spaceID = all_spaces[cur_screen_id][sp]
-  -- spaces.moveWindowToSpace(win:id(), spaceID)
-  -- spaces.gotoSpace(spaceID)              -- follow window to new space
--- end
---
--- hs.hotkey.bind(hyper, '1', function() MoveWindowToSpace(1) end)
--- hs.hotkey.bind(hyper, '2', function() MoveWindowToSpace(2) end)
--- hs.hotkey.bind(hyper, '3', function() MoveWindowToSpace(3) end)
--- hs.hotkey.bind(hyper, '4', function() spaces.toggleMissionControl() end)
-
 inspect = hs.inspect.inspect
 prefix = require("prefix")
 utils = require("utils")
