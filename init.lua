@@ -19,7 +19,7 @@ Install=spoon.SpoonInstall
 Install:andUse("ClipboardTool",
                {
                  disable = false,
-                 config = { show_in_menubar = false },
+                 config = { show_in_menubar = false, max_size = true },
                  hotkeys = { toggle_clipboard = { { "cmd", "shift" }, "v" } },
                  start = true
                }
@@ -29,6 +29,9 @@ Install:andUse("SpeedMenu", { start = true })
 
 inspect = hs.inspect.inspect
 prefix = require("prefix")
+
+prefix.bind('alt', 'c', function() spoon.ClipboardTool:clearAll() end)
+
 utils = require("utils")
 
 require("double_cmdq_to_quit")
